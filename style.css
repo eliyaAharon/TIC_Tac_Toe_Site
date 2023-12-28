@@ -1,0 +1,48 @@
+button {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    font-size: 50px;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    border-collapse: collapse;
+
+}
+
+td {
+    border: black solid;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+#play-again-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+    height: 100%;
+    border: white solid;
+
+}
+
+#play-again-button:hover {
+    background-color: blue;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: blue;
+    height: 50px;
+}
